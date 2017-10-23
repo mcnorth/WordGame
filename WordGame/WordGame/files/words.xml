@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<word>
+    <name>blender</name>
+    <sevenLetters>
+        <value>blender</value>
+        <value>reblend</value>
+    </sevenLetters>
+    <sixLetters>
+        <value>bender</value>
+        <value>lender</value>
+        <value>relend</value>
+    </sixLetters>
+    <fiveLetters>
+        <value>bleed</value>
+        <value>blend</value>
+        <value>breed</value>
+        <value>elder</value>
+        <value>rebel</value>
+    </fiveLetters>
+    <fourLetters>
+        <value>been</value>
+        <value>beer</value>
+        <value>bend</value>
+        <value>bled</value>
+        <value>bred</value>
+        <value>deer</value>
+        <value>leer</value>
+        <value>lend</value>
+        <value>need</value>
+        <value>nerd</value>
+        <value>reed</value>
+        <value>reel</value>
+        <value>rend</value>
+    </fourLetters>
+    <threeLetters>
+        <value>bed</value>
+        <value>bee</value>
+        <value>den</value>
+        <value>eel</value>
+        <value>end</value>
+        <value>led</value>
+        <value>red</value>
+    </threeLetters>   
+</word>
