@@ -73,6 +73,7 @@
     <Content Include="css\bootstrap-theme.min.css.map" />
     <Content Include="css\bootstrap.css.map" />
     <Content Include="css\bootstrap.min.css.map" />
+    <Content Include="css\style.css" />
     <Content Include="files\words.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">

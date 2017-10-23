@@ -6,6 +6,7 @@
 <head runat="server">
     <title>Word Game</title>
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
     <script src="js/bootstrap.min.js"></script>
 </head>
 <body>

@@ -13,12 +13,24 @@ namespace WordGame
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+
             string path = System.Web.HttpContext.Current.Server.MapPath("~/files/words.json");
             StreamReader rdr = new StreamReader(path);
             string json = rdr.ReadToEnd();
            
             var wordList = JsonConvert.DeserializeObject<List<Word>>(json);
 
+            CreateNewGame(wordList);
+
         }
+
+        public void CreateNewGame (List<Word> wordlist)
+        {
+            Random rnd = new Random();
+            int r = rnd.Next(wordlist.Count);
+            Word w = wordlist[r];
+        }
+            
+
     }
 }
