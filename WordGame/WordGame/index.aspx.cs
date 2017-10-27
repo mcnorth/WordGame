@@ -6,6 +6,7 @@ using System.Web.UI;
 using System.Web.UI.WebControls;
 using Newtonsoft.Json;
 using System.IO;
+using System.Web.UI.HtmlControls;
 
 namespace WordGame
 {
@@ -29,6 +30,11 @@ namespace WordGame
             Random rnd = new Random();
             int r = rnd.Next(wordlist.Count);
             Word w = wordlist[r];
+            HtmlGenericControl tileControl = new HtmlGenericControl();
+            tileControl.TagName = "p";
+            tileControl.Attributes["class"] = "tile";
+            gamePanel.Controls.Add(tileControl);
+            
         }
             
 

@@ -12,6 +12,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Panel ID="gamePanel" runat="server"></asp:Panel>
         </div>
     </form>
 </body>
